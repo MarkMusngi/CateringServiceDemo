@@ -1,0 +1,10 @@
+.navbar-custom{
+    background-color: #FEF3E2;
+}
+.navbar .navbar-brand {
+    font-size: 2rem;
+}
+
+.navbar .nav-link {
+    font-size: 1.5rem;
+}

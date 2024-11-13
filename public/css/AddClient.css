@@ -1,0 +1,121 @@
+/* General Body Styling */
+body.client-body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Form Container */
+.client-form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.client-form h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Form Labels */
+label.form-label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+/* Form Inputs */
+input.form-control {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Button Styles */
+button.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Search Results */
+.search-results {
+    margin-top: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.search-result {
+    padding: 8px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+}
+
+.search-result:hover {
+    background-color: #f1f1f1;
+}
+
+/* No results found message */
+.search-results .no-results {
+    color: #888;
+    font-style: italic;
+}
+
+/* Back Button */
+a.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+a.back-link:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 576px) {
+    .client-form {
+        padding: 30px;
+    }
+
+    .client-form h2 {
+        font-size: 24px;
+    }
+
+    .form-label, .form-control {
+        font-size: 14px;
+    }
+
+    button.btn-primary {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}

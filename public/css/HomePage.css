@@ -1,0 +1,49 @@
+.background-image {
+    background-image: url('../images/home_1.jpg');
+    background-size: cover;       /* Makes the image cover the entire div */
+    background-position: center;  /* Centers the image */
+    height: 1000px;                /* Adjust height to control the size */
+    width: 100%;                  /* Full width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s eas;
+  }
+  
+  .col-3 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+  
+.button-container {
+    display: flex;
+    justify-content: center;  /* Horizontally center the button */
+    align-items: center;      /* Vertically center the button */
+    padding-bottom: 60px;
+}
+
+.btn.btn-primary {
+    background-color: #FF3533;
+    border: 2px solid #FF3533;  /* Hover border color */    
+    width: 200px;  /* Fixed width */
+    padding: 15px 30px;  /* You can also use padding to make it wider */
+    font-size: 18px;
+}
+
+.btn.btn-primary:hover {
+    background-color: #FF6866;  /* Hover background color */
+    color: white;               /* Hover text color */
+    border: 2px solid #FF6866;  /* Hover border color */
+}
+
+.about-container{
+    padding-bottom: 50px;
+}
+.About-Us{
+    color: #FF6866;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

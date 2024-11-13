@@ -1,0 +1,10 @@
+.container-gallery {
+    padding-top: 30px;
+}
+
+.custom-card-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Adjust this value to control the gap between cards */
+
+}
