@@ -23,8 +23,8 @@ router.get('/createclient', (req, res) => {
 });
 
 // Route for the About Us page
-router.get('/Gallery', (req, res) => {
-  res.render('Gallery', { title: 'Gallery' });  // Render the Gallery.hbs template
+router.get('/gallery', (req, res) => {
+  res.render('gallery', { title: 'gallery' });  // Render the Gallery.hbs template
 });
 
 // Route for the Contact page
