@@ -1,4 +1,3 @@
-Project Overview
 The De Florence Catering Web Application is a specialized platform designed to streamline catering operations. It features a robust admin dashboard for secure management and efficient handling of complex order data.
 
 Features
