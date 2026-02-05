@@ -1,4 +1,4 @@
-# 🍽️ Deflorence Catering Services Management System
+# Catering Services Management System
 
 A professional event management and booking platform designed for catering businesses. This system allows administrators to handle the end-to-end lifecycle of a catering event, from client registration to menu customization and final status tracking.
 
