@@ -3,7 +3,9 @@ const express = require('express');
 const session = require('express-session');
 const exphbs = require('express-handlebars');
 const bodyParser = require('body-parser');
+require('dotenv').config();
 const { connectToDatabase } = require('./routes/db');
+
 
 const app = express();
 const port = 3000;
