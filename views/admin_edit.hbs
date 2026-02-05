@@ -119,35 +119,46 @@
                     <!-- Repeat for drink2 to drink4 -->
 
                     <h3>Other Information</h3>
-                    <div class="mb-3">
-                        <input type="text" id="others" name="others" class="form-control" value="{{event.others}}">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="mb-3">
+                                <label for="others" class="form-label">Special Instructions / Others:</label>
+                                <input type="text" id="others" name="others" class="form-control" value="{{event.others}}" placeholder="Enter any extra details...">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="downpayment" class="form-label">Downpayment Amount:</label>
+                                <input type="number" id="downpayment" name="downpayment" class="form-control" value="{{event.downpayment}}">
+                            </div>
+                            <div class="mb-3">
+                                <label for="balance" class="form-label">Remaining Balance:</label>
+                                <input type="number" id="balance" name="balance" class="form-control" value="{{event.balance}}">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="venue" class="form-label">Venue Name:</label>
+                                <input type="text" id="venue" name="venue" class="form-control" value="{{event.venue}}">
+                            </div>
+                            <div class="mb-3">
+                                <label for="address" class="form-label">Full Address:</label>
+                                <input type="text" id="address" name="address" class="form-control" value="{{event.address}}">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="occasion" class="form-label">Occasion Type:</label>
+                                <input type="text" id="occasion" name="occasion" class="form-control" value="{{event.occasion}}">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="event_date" class="form-label">Event Date:</label>
+                                <input type="date" id="event_date" name="event_date" class="form-control" value="{{event.event_date}}">
+                            </div>
+                        </div>
                     </div>
-                    <div class="mb-3">
-                        <input type="number" id="downpayment" name="downpayment" class="form-control" value="{{event.downpayment}}">
-                    </div>
-                    <div class="mb-3">
-                        <input type="number" id="balance" name="balance" class="form-control" value="{{event.balance}}">
-                    </div>
-                    <div class="mb-3">
-                        <input type="text" id="venue" name="venue" class="form-control" value="{{event.venue}}">
-                    </div>
-                    <div class="mb-3">
-                        <input type="text" id="address" name="address" class="form-control" value="{{event.address}}">
-                    </div>
-                    <div class="mb-3">
-                        <input type="text" id="occasion" name="occasion" class="form-control" value="{{event.occasion}}">
-                    </div>
-                    <div class="mb-3">
-                        <input type="date" id="event_date" name="event_date" class="form-control" value="{{event.event_date}}">
-                    </div>
-                    <div class="mb-3">
-                        <select id="status" name="status" class="form-select">
-                            <option value="Pending" {{#if (eq event.status 'Pending')}}selected{{/if}}>Pending</option>
-                            <option value="Confirmed" {{#if (eq event.status 'Confirmed')}}selected{{/if}}>Confirmed</option>
-                            <option value="Completed" {{#if (eq event.status 'Completed')}}selected{{/if}}>Completed</option>
-                        </select>
-                    </div>
-
                     <div class="mb-3 text-center">
                         <button type="submit" class="btn btn-primary">Save Changes</button><br><br>
                         <button type="submit" name="action" value="sendConfirmationEmail" class="btn btn-secondary" onclick="return confirmSendEmail()">Send Confirmation Email</button>
