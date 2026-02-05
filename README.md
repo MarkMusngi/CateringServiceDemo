@@ -1,4 +1,5 @@
 [![Live Demo](https://img.shields.io/badge/Live_Demo-View_Project-brightgreen?style=for-the-badge&logo=render)](https://cateringservicedemo.onrender.com)
+<img width="1915" height="901" alt="CateringServiceDemo" src="https://github.com/user-attachments/assets/c09bcbb7-5f70-4681-92cd-66b39e2e4b67" />
 
 # Catering Services Management System
 
