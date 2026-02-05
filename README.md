@@ -1,3 +1,5 @@
+[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Project-brightgreen?style=for-the-badge&logo=render)](https://cateringservicedemo.onrender.com)
+
 # Catering Services Management System
 
 A professional event management and booking platform designed for catering businesses. This system allows administrators to handle the end-to-end lifecycle of a catering event, from client registration to menu customization and final status tracking.
